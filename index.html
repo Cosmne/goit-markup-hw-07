@@ -17,8 +17,13 @@
 </head>
 
 <body>
+<div class="js-menu-container">
+  <button class="menu-toggle js-close-menu">
+    <svg>
+      <use href="images/symbol-defs.svg#icon-close-black-18dp-2-1" />
+    </svg>
+  </button>
   <!--Header -->
-
   <header class="header-style">
     <div class="logo">
       <a href="https://github.com/Cosmne/goit-markup-hw-02.git">
@@ -51,6 +56,13 @@
               <use href="./images/icons.svg#icon-smartphone" />
             </svg>
             <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+          </div>
+        </li>
+        <li>
+          <div class="menu-button js-open-menu">
+            <svg>
+              <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+            </svg>
           </div>
         </li>
       </ul>
@@ -478,6 +490,7 @@
     </div>
   </div>
   <script src="./modal.js"></script>
+  <script src="/js/mobile-menu.js"></script>
 </body>
 
 </html>
