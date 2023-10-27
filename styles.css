@@ -131,20 +131,33 @@ h1 {
   fill: var(--button-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
+.textfield:hover {
+  border:1px solid rgba(33, 150, 243, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .textfield:focus + svg {
   fill: rgba(33, 150, 243, 1);
 }
 
 .textfield:focus {
   border: 1px solid var(--button-color);
+  outline: none;
+}
+.cb {
+  accent-color: var(--button-color);
 }
 
+.newsletter-text{
+  color: var(--bg-color);
+}
 .modal-effect textarea:hover {
   border: 1px solid var(--button-color);
   cursor: pointer;
 }
-
+.modal-effect textarea:focus {
+  border: 1px solid var(--button-color);
+ 
+}
 .modal-label {
   display:flex;
   flex-direction: column;
@@ -204,7 +217,7 @@ h1 {
 }
 .modal-checkbox input {
   position: absolute;
-  left: 106px;
+  left: 100px;
   }
     .modal-checkbox input:hover {
       fill: var(--button-color);
@@ -368,7 +381,8 @@ background-color: var(--button-effect);
 .overlay:hover .card-hover {
       transform: translatey(0);
     }
-  
+ 
+
 /*Studio*/
 /*header-footer*/
 .header-style {
