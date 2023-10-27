@@ -15,9 +15,10 @@ body {
   font-family: "roboto", "raleway", sans-serif;
   font-family: "roboto";
   color: var(--text-color);
+  width: 100%;
+  
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 ul {
@@ -384,21 +385,30 @@ background-color: var(--button-effect);
 
 /*Studio*/
 /*header-footer*/
-
-
-.global-header {
-  display:flex;
-  justify-content: space-between;
-  width: 100%;
+.header-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: inherit;
+  width: inherit;
+  height: 80px;
+  margin: 0;
+  padding:0;
+  border: 1px solid #ECECEC;
 }
-.global-header a {
+
+
+.header-style a {
   text-decoration: none;
 }
 
 .main-navigation {
   color: inherit;
 }
-
 
 .main-navigation a:link {
   color: inherit;
@@ -830,16 +840,8 @@ fill: #AFB1B8;
   padding-top: 36px;
   padding-left: 215px;
 }
-.js-open-menu {
-width: 24px;
-height: 16px;
-position: absolute;
-right: 22px;
-top: 22px;
-}
-.menu-button svg {
-  width: 24px;
-  height: 16px;
+.footer-logo {
+  
 }
 
 .contacts,
@@ -903,50 +905,3 @@ top: 22px;
  display: flex;
  justify-content: space-between;
 }
-/* mobile */
-
-.js-menu-container {
-  display: none;
-}
-.js-menu-container.is-open {
-  display: block;
-  width: 480px ;
-  height: 796px;
-}
-.js-menu-container .js-close-menu svg {
-  width: 24px;
-  height: 16px;
-}
-
-
-
-/* tablet */
-@media screen and (min-width: 768px) {
-.menu-button {
-    display: none;
-  }
-}
-
-/* desktop */
-
-@media screen and (min-width: 1158px) {
-.global-header {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: inherit;
-    height: 80px;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #ECECEC;
-  }
-  .menu-button {
-      display: none;
-  }
-}
-
