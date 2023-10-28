@@ -13,59 +13,68 @@
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="icons.svg" />
-  <link rel="stylesheet" href="modal.js" />
+ 
+ 
 </head>
 
 <body>
-<div class="js-menu-container">
-  <button class="menu-toggle js-close-menu">
-    <svg>
-      <use href="images/symbol-defs.svg#icon-close-black-18dp-2-1" />
-    </svg>
-  </button>
+  <!--  mobile window
+<section>
+      <div>
+      <div class="js-menu-container">
+        <button class="menu-toggle js-close-menu">
+          <svg>
+            <use xlink:href="images/icons.svg#icon-close-black-18dp-2-1" />
+          </svg>
+        </button>
+        </div>
+        <div class="menu-button js-open-menu">
+          <svg>
+            <use xlink:href="./images/icons.svg#icon-menu_24px"></use>
+          </svg>
+        </div>
+        </div> 
+      </section> -->
+
   <!--Header -->
-  <header class="header-style">
+  <header class="global-header">
     <div class="logo">
-      <a href="https://github.com/Cosmne/goit-markup-hw-02.git">
+      <a href="#.com">
         <span class="web-head-foot">Web</span><span class="studio-head">Studio</span></a>
     </div>
 
+<!--JS OPEN MENU TODO:-->
+
+<div class="menu-button js-open-menu">
+  <svg>
+    <use xlink:href="./images/icons.svg#icon-menu_24px"></use>
+  </svg>
+</div>
     <nav class="main-navigation effects">
-      <ul>
-        <li class="main-buttons">
+      
+        <div class="main-nav-buttons">
           <a id="current" rel="stylesheet" href="index.html">Studio</a>
-        </li>
-        <li class="main-buttons">
           <a rel="stylesheet" href="porfolio.html">Portfolio</a>
-        </li>
-        <li class="main-buttons">
           <a rel="stylesheet" href="Contacts">Contacts</a>
-        </li>
-        <li class="box"></li>
-        <li class="links">
-          <div>
+        </div>
+
+          <div class="header-links-container">
+            <div class="links">
             <svg class="insta-head">
               <use href="./images/icons.svg#icon-envelope" />
             </svg>
             <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
-          </div>
-        </li>
-        <li class="links">
-          <div>
+            </div>
+        
+           <div class="links">
             <svg class="smartphone-head">
               <use href="./images/icons.svg#icon-smartphone" />
             </svg>
             <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+            </div>
           </div>
-        </li>
-        <li>
-          <div class="menu-button js-open-menu">
-            <svg>
-              <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
-            </svg>
-          </div>
-        </li>
-      </ul>
+        
+      
     </nav>
   </header>
   <!--Title-->
@@ -489,8 +498,11 @@
       </form>
     </div>
   </div>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
   <script src="./modal.js"></script>
-  <script src="/js/mobile-menu.js"></script>
+  <script src="./mobile-menu.js"></script>
 </body>
 
 </html>
