@@ -14,45 +14,119 @@
 </head>
 
 <body>
-    <header class="global-header">
-        <div class="logo">
-            <a href="https://github.com/Cosmne/goit-markup-hw-02.git"> <span class="web-head-foot">Web</span><span
-                    class="studio-head">Studio</span></a>
+    <div>
+        <div class="js-menu-container">
+            <button class="menu-toggle js-close-menu">
+                <svg>
+                    <use xlink:href="images/icons.svg#icon-close-black-18dp-2-1" />
+                </svg>
+            </button>
+            <div class="mobile-nav-buttons">
+                <a rel="stylesheet" href="index.html">Studio</a>
+                <a rel="stylesheet" href="porfolio.html">Portfolio</a>
+                <a rel="stylesheet" href="Contacts">Contacts</a>
+            </div>
+            <div class="mobile-links">
+    
+                <div class="mobile-phone-number">
+                    <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+                </div>
+                <div>
+                    <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
+                </div>
+            </div>
+    
+            <ul class="social-media-mobile">
+                <li>
+                    <a href="#.com">Instagram</a>
+                </li>
+                <li><span>|</span></li>
+                <li>
+                    <a href="#.com">Twitter</a>
+                </li>
+                <li><span>|</span></li>
+                <li>
+                    <a href="#.com">Facebook</a>
+                </li>
+                <li><span>|</span></li>
+                <li>
+                    <a href="#.com">Linkedin</a>
+                </li>
+            </ul>
         </div>
-
+    
+    
+        <div class="menu-button js-open-menu">
+            <svg>
+                <use xlink:href="./images/icons.svg#icon-menu_24px"></use>
+            </svg>
+        </div>
         <div>
-            <nav class="main-navigation effects">
-                <ul class="container-header">
-                    <li class="main-nav-buttons">
+            <!--Header -->
+            <header class="global-header">
+                <div class="logo header-logo">
+                    <a href="#.com">
+                        <span class="web-head-foot">Web</span><span class="studio-head">Studio</span></a>
+                </div>
+    
+                <!--JS OPEN MENU TODO:-->
+    
+    
+                <nav class="main-navigation effects">
+                    <!-- MOBILE-->
+    
+                    <div class="main-nav-buttons">
                         <a rel="stylesheet" href="index.html">Studio</a>
-                    </li>
-                    <li class="main-nav-buttons">
                         <a id="current" rel="stylesheet" href="porfolio.html">Portfolio</a>
-                    </li>
-                    <li class="main-nav-buttons">
                         <a rel="stylesheet" href="Contacts">Contacts</a>
-                    </li>
-                    <li class="box"></li>
-                    <li class="links">
-                        <div>
+                    </div>
+    
+    
+                    <div class="header-links-container">
+                        <div class="links">
                             <svg class="insta-head">
                                 <use href="./images/icons.svg#icon-envelope" />
                             </svg>
                             <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
                         </div>
-                    </li>
-                    <li class="links">
-                        <div>
+    
+                        <div class="links">
                             <svg class="smartphone-head">
                                 <use href="./images/icons.svg#icon-smartphone" />
                             </svg>
                             <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
                         </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+                    </div>
+                </nav>
+                <!--DESKTOP-->
+                <div class="desktop-drawer">
+                    <nav class="desktop-navigation effects">
+    
+                        <div class="desktop-nav-buttons">
+                            <a  rel="stylesheet" href="index.html">Studio</a>
+                            <a id="current" rel="stylesheet" href="porfolio.html">Portfolio</a>
+                            <a rel="stylesheet" href="Contacts">Contacts</a>
+                        </div>
+    
+                        <div class="desktop-links-container">
+                            <div class="links">
+                                <svg class="insta-head">
+                                    <use href="./images/icons.svg#icon-envelope" />
+                                </svg>
+                                <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
+                            </div>
+    
+                            <div class="links">
+                                <svg class="smartphone-head">
+                                    <use href="./images/icons.svg#icon-smartphone" />
+                                </svg>
+                                <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+                            </div>
+                        </div>
+                </div>
+                </nav>
+    
+            </header>
 
     <main>
         <!-- class="main-section-portfolio" -->
@@ -218,71 +292,83 @@
         </section>
 
     </main>
-    <footer>
-    
-        <address class="footer-style">
-            <div class="footer-logo">
-                <div class="logo">
-                    <a href="https://github.com/Cosmne/goit-markup-hw-02.git">
-                        <span class="web-head-foot">Web</span><span class="studio-foot">Studio</span>
-                    </a>
-                </div>
-                <div>
-                    <ul class="effects">
-                        <li class="set-adress">
-                            <a rel="stylesheet"
-                                href="Park&nbsp;Ave,&nbsp;NY&nbsp;10065,&nbsp;USA">Park&nbsp;Ave,&nbsp;NY&nbsp;10065,&nbsp;USA</a>
-                        </li>
-                        <li class="contacts">
-                            <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="contacts">
-                            <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div class="footer-icons">
-                <p>FIND US ON</p>
-                <ul class="social-icons-footer">
-                    <li>
-                        <svg>
-                            <use xlink:href="./images/icons.svg#icon-instagram" />
-                        </svg>
-                    </li>
-                    <li>
-                        <svg>
-                            <use xlink:href="./images/icons.svg#icon-twitter" />
-                        </svg>
-                    </li>
-                    <li>
-                        <svg>
-                            <use xlink:href="./images/icons.svg#icon-facebook" />
-                        </svg>
-                    </li>
-                    <li>
-                        <svg>
-                            <use xlink:href="./images/icons.svg#icon-linkedin" />
-                        </svg>
-                    </li>
-                </ul>
-            </div>
-            <div class="newsletter">
-                <p>SUBSCRIBE TO THE NEWSLETTER</p>
-                <div class="newsletter-box">
-                    <input type="email" name="newsletter">
-                    <div class="footer-sub-btn">
-                        <button type="submit">Subscribe</button>
-                        <svg>
-                            <use xlink:href="./images/icons.svg#icon-icon-send" />
-                        </svg>
+        <footer>
+        
+            <address class="footer-style">
+                <div class="footer-logo-container">
+                    <div class="logo-ctn">
+                        <div class="logo footer-logo">
+                            <a href="#.com">
+                                <span class="web-head-foot">Web</span><span class="studio-foot">Studio</span>
+                            </a>
+                        </div>
+        
+        
+                        <div class="footer-contacts">
+                            <ul class="effects">
+                                <li class="set-adress">
+                                    <a rel="stylesheet"
+                                        href="Park&nbsp;Ave,&nbsp;NY&nbsp;10065,&nbsp;USA">Park&nbsp;Ave,&nbsp;NY&nbsp;10065,&nbsp;USA</a>
+                                </li>
+                                <li class="contacts">
+                                    <a rel="stylesheet" href="info@devstudio.com">info@devstudio.com</a>
+                                </li>
+                                <li class="contacts">
+                                    <a rel="stylesheet" href="+1&nbsp;212-772-4150">+1&nbsp;212-772-4150</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-icons ">
+                        <p>FIND US ON</p>
+                        <ul class="social-icons-footer">
+                            <li>
+                                <svg>
+                                    <use xlink:href="./images/icons.svg#icon-instagram" />
+                                </svg>
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="./images/icons.svg#icon-twitter" />
+                                </svg>
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="./images/icons.svg#icon-facebook" />
+                                </svg>
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="./images/icons.svg#icon-linkedin" />
+                                </svg>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div> 
-        </address>
-    </footer>
-
+                <div class="newsletter">
+        
+                    <p>SUBSCRIBE TO THE NEWSLETTER</p>
+        
+                    <div class="newsletter-box">
+                        <div>
+                            <input class="newsletter-text textfield" placeholder="E-mail" type="email" name="newsletter">
+                        </div>
+        
+                        <div class="footer-sub-btn">
+        
+                            <button type="submit">Subscribe</button>
+                            <svg>
+                                <use xlink:href="./images/icons.svg#icon-icon-send" />
+                            </svg>
+        
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </address>
+        </footer>
+<script src="/mobile-menu.js"></script>
 </body>
 
 </html>
